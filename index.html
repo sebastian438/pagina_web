@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Sebastián</title>
+
+    <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+  <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet"
+        href="./css/style.css">
+</head>
+<body>
+    <header id="main-header" class="container">
+        <a class="logo" href="./index.html">Sebastián</a>
+        <nav aria-label="Principal">
+            <button class="nav-toggle" aria-expanded="false" aria-controls="menu">☰</button>
+            <ul id="menu" class="menu">
+                <li><a href="./index.html" aria-current="page">Home</a></li>
+                <li><a href="./biografia.html">Biografía</a></li>
+                <li><a href="./portfolio.html">Portfolio</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero container">
+            <div class="hero_contentet">
+                <h1>Hola, soy Sebastián</h1>
+                <p>Estudiante de desarrollo web full stack. Construyo interfaces limpias y accesibles.</p>
+                <a class="button" href="./portfolio.html">Ver portfolio</a>
+            </div>
+            <figure class="hero_figure">
+                <img src="./assets/images/avatar.jpg" alt="Retrato de Sebastián">
+            </figure>
+        </section>
+    </main>
+
+    <footer class="container">
+        <small>© <span id="year"></span> Sebastián -
+            <a href="./contacto.html">Contacta</a></small>
+    </footer>
+
+    <script src="./js/script.js" defer></script>
+</body>
+</html>

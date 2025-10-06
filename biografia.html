@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biografía - Sebastián</title>
+
+    <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+  <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet"
+        href="./css/style.css">
+</head>
+<body>
+   <header id="main-header" class="container">
+    <a class="logo" href="./index.html">Sebastián</a>
+    <nav aria-label="Principal">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="menu">☰</button>
+        <ul id="menu" class="menu">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./biografia.html" aria-current="page"> Biografía</a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+   </header> 
+
+   <main class="container">
+    <article>
+        <header><h1>Biografía</h1></header>
+
+        <p>Empecé a programar hace dos meses. Estudio desarrollo web full stack y documento mi progreso.</p>
+
+        <figure class="bio_figure">
+            <img src="./assets/images/avatar.jpg" alt="Sebastián programando">
+            <figcaption>Foto reciente en un proyecto.</figcaption>
+        </figure>
+
+        <section>
+            <h2>Hitos</h2>
+            <ul>
+                <li>Primer login con JWT y roles.</li>
+                <li>Despliegue en Vercel y Render.</li>
+                <li>Init de BD en PostgreSQL.</li>
+            </ul>
+        </section>
+    </article>
+   </main>
+
+   <footer class="container">
+    <small>© <span id="year"></span> Sebastián</small>
+   </footer>
+
+   <script src="./js/script.js" defer></script>
+</body>
+</html>

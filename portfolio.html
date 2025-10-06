@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Sebastián</title>
+
+      <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+  <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet"
+        href="./css/style.css">
+</head>
+<body>
+    <header id="main-header" class="container">
+        <a class="logo" href="./index.html">Sebastián</a>
+        <nav aria-label="Principal">
+            <button class="nav-toggle" aria-expanded="false" aria-controls="menu">☰</button>
+            <ul id="menu" class="menu">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./biografia.html">Biografía</a></li>
+                <li><a href="./portfolio.html" aria-current="page">Portfolio</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <header>
+            <h1>Portfolio</h1>
+            <p>Selección de proyectos y contenidos.</p>
+        </header>
+
+        <section class="grid">
+            <article class="card">
+                <img src="./assets/images/proyecto-1.jpg" alt="Captura proyecto 1">
+                <div class="card_body">
+                    <h2>Proyecto 1</h2>
+                    <p>App full stack con Node.js y React.</p>
+                    <a class="button button--ghost" href="#">Ver repo</a>
+                </div>
+            </article>
+
+            <article class="card media">
+                <video controls preload="metadata">
+                    <source src="./assets/videos/demo.mp4" type="video/mp4">
+                    Tu navegador no soporta video.
+                </video>
+                <audio controls>
+                    <source src="assets/videos/demo.mp4" type="audio/mp4">
+                    Tu navegador no soporta audio.
+                </audio>
+            </article>
+        </section>
+    </main>
+    
+    <footer class="container">
+    <small>© <span id="year"></span> Sebastián</small>
+  </footer>
+
+  <script src="./js/script.js" defer></script>
+
+
+</body>
+</html>
